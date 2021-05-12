@@ -32,7 +32,7 @@ export default {
             
             this.firstName=results[0].name.first
             this.lastName=results[0].name.lastName
-            this.eamil=results[0].email
+            this.email=results[0].email
             this.phone=results[0].phone
             this.age=results[0].dob.age
             this.location=results[0].location.country+'-'+results[0].location.state+'-'+results[0].location.city+'-'+results[0].location.street.name+'-'+results[0].location.street.number
